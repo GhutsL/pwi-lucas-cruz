@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMA</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    header {
+        background-color: brown;
+        padding: 10px;
+        text-align: center;
+        font-size: 35px;
+        color: grey;
+
+    }
+
+    footer {
+        background-color: brown;
+        padding: 10px;
+        text-align: center;
+        color: grey;
+        font-size: 20px;
+    }
+
+    nav {
+        float: left;
+        background-color: grey;
+        padding: 20%;
+        height: 10% ;
+        width: 10%;
+    }
+    
+        article {
+        float: left;
+        width: 10%;
+        height: 10%;
+        background-color: rgb(5, 116, 136);
+        padding: 10%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+
+
+    section::after {
+      content: "";
+      display: table;
+      clear:both;
+    
+    }
+
+    @media (max-width: 600px) {
+        section {
+            -webkit-flex-direction: column;
+            flex-direction: column;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        Tipos de batatas
+    </header>
+
+    
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#"> Batata Netuno</a></li>
+                <li><a href="#">Batata Terra</a></li>
+            </ul>
+        </nav>    
+    </section>
+    
+    <aside>
+        <article>
+            <h1>Batata Netuno</h1>
+            <p>
+                Tem muito agua nisso ai
+            </p>
+        </article>
+    </aside>
+            
+
+
+    <footer>
+        Acabou
+    </footer>
+</body>
+
+</html>
