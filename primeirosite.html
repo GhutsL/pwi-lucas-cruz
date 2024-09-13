@@ -5,70 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LUMA</title>
-</head>
-<style>
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    header {
-        background-color: brown;
-        padding: 10px;
-        text-align: center;
-        font-size: 35px;
-        color: grey;
-
-    }
-
-    footer {
-        background-color: brown;
-        padding: 10px;
-        text-align: center;
-        color: grey;
-        font-size: 20px;
-    }
-
-    nav {
-        float: left;
-        background-color: grey;
-        padding: 20%;
-        height: 10% ;
-        width: 10%;
-    }
-    
-        article {
-        float: left;
-        width: 10%;
-        height: 10%;
-        background-color: rgb(5, 116, 136);
-        padding: 10%;
-    }
-
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-
-
-    section::after {
-      content: "";
-      display: table;
-      clear:both;
-    
-    }
-
-    @media (max-width: 600px) {
-        section {
-            -webkit-flex-direction: column;
-            flex-direction: column;
+    <style>
+        * {
+            box-sizing: border-box;
         }
-    }
-</style>
+    
+        body {
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+        header {
+            background-color: brown;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: grey;
+    
+        }
+    
+        footer {
+            background-color: brown;
+            padding: 10px;
+            text-align: center;
+            color: grey;
+            font-size: 20px;
+        }
+    
+        nav {
+            
+            background-color: grey;
+            padding: 100px;
+
+        }
+        
+            article {
+            
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;             
+            background-color: rgb(5, 116, 136);
+            padding: 100px;
+            
+        }
+    
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    
+    
+    
+        section::after {
+          
+          display: flex;
+          display: -webkit-flex;
+          
+        } 
+
+        @media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+        
+
+    </style>
+</head>
+
 
 <body>
     <header>
@@ -85,14 +89,12 @@
         </nav>    
     </section>
     
-    <aside>
+
         <article>
             <h1>Batata Netuno</h1>
-            <p>
-                Tem muito agua nisso ai
-            </p>
+            <p>Tem muito agua nisso ai</p>
         </article>
-    </aside>
+
             
 
 
