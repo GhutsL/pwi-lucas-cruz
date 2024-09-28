@@ -1,0 +1,13 @@
+body{
+    background-color:rgb(2, 112, 28)
+}
+
+.RG{
+    border: 100p;
+}
+
+.div1 {
+    float:left;
+    padding: 15px; 
+    background-color: aliceblue;
+}

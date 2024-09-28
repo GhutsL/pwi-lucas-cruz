@@ -1,0 +1,41 @@
+#overflowTest {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+  }
+
+  #overflowFoda {
+    background: #544caf;
+    color: rgb(255, 200, 0);
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow:visible;
+    border: 1px solid #ccc;
+  }
+
+  #overflowFoda2 {
+    background: #ff0000;
+    color: rgb(0, 255, 234);
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }  
+
+  #overflowFoda3 {
+    background: #ff00dd;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    border: 1px solid #ccc;
+  } 
+
